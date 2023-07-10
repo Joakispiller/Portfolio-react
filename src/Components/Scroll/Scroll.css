@@ -1,0 +1,18 @@
+/* cambiar en responsive el width y el margin de flechita */
+
+.texto-rotado {
+    transform: rotate(90deg);
+    transform-origin: left top;
+    white-space: nowrap;
+    color: rgb(223, 223, 223);
+    display: flex;
+    font-weight: 100;
+  }
+  
+  .flechita{
+    width: 1.5em;
+    filter: opacity(70%);
+    margin-top: 0.1em;
+    margin-left: 0.4em;
+  }
+  

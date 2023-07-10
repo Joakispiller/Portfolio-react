@@ -1,0 +1,38 @@
+.ul{
+    list-style: none;
+    font-weight: 100;
+    font-size: 0.8em;
+    filter: opacity(90%);
+    margin-top: -3em;
+
+   
+}
+
+.divi{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: -4em;
+   filter: opacity(20%);
+}
+.nav-item{
+    
+   
+     display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+.linea {
+    position: absolute;
+    bottom: 2;
+    left: 6;
+    width: 100%;
+    height: 1px;
+    background-color: #00C296;
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  .nav-item:hover .linea {
+    transform: scaleX(1);
+  }
+  

@@ -1,0 +1,7 @@
+.toBody{
+    width: 100vw;
+    background-color: #151515;
+}
+.plex{
+    display: flex;
+}

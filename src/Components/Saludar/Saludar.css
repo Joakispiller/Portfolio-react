@@ -1,0 +1,11 @@
+/*punto margin top en responsive*/
+.puntito{
+    color:#9A5BFF;
+    margin-top: 1.52em;
+}
+.hola{
+    color: white;
+}
+.salud{
+    display: flex;
+}
