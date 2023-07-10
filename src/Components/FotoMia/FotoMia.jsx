@@ -11,7 +11,7 @@ const FotoMia = () => {
           mt={{ "base":"1em",  md: '1em', xl: '10em',}}
           >
            
-            <img src="public/Imagenes/MiFoto.jpg" alt="" />
+            <img src="MiFoto.jpg" alt="" />
 
             </Box>
 
