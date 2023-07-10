@@ -27,7 +27,7 @@ const Proyectos
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eligendi dolores itaque adipisci error. Repellat nesciunt, id quos quidem veniam fugit. Et cupiditate libero qui temporibus. Suscipit nihil harum qui.</p>
             </Box> */}
             <Box w={200}>
-                <img src="Public/Imagenes/Tp1.png" alt="" />
+                <img src="Tp1.png" alt="" />
             </Box>
             {/* ambas */}
             <Box display={"flex"} mt={{ "base":"2em",  md: '4.2em', xl: '1em',} }>
@@ -40,7 +40,7 @@ const Proyectos
                 <Box width="1.5em" ml={{ "base":"2em",  md: '4.2em', xl: '13em',} }
                 > 
                     <a href="https://joakispiller.github.io/trabajopractico1/" target='blank'>
-                        <img src="Public/Imagenes/Urlink.svg" alt="url"/>
+                        <img src="Urlink.svg" alt="url"/>
                         
                     </a>
                     
@@ -71,7 +71,7 @@ const Proyectos
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eligendi dolores itaque adipisci error. Repellat nesciunt, id quos quidem veniam fugit. Et cupiditate libero qui temporibus. Suscipit nihil harum qui.</p>
             </Box> */}
             <Box w={200} >
-                <img src="Public/Imagenes/shop.png" alt="" />
+                <img src="shop.png" alt="" />
             </Box>
             {/* ambas */}
             <Box display={"flex"} mt={{ "base":"2em",  md: '4.2em', xl: '1em',} }>
@@ -83,7 +83,7 @@ const Proyectos
                 {/* svg */}
                 <Box width="1.5em" ml={{ "base":"2em",  md: '4.2em', xl: '13em',} }>
                     <a href="https://joakispiller.github.io/tareaivyre/" target='blank'>
-                        <img src="Public/Imagenes/Urlink.svg" alt="url"/>
+                        <img src="Urlink.svg" alt="url"/>
                     </a>
                     
                     
@@ -111,7 +111,7 @@ const Proyectos
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eligendi dolores itaque adipisci error. Repellat nesciunt, id quos quidem veniam fugit. Et cupiditate libero qui temporibus. Suscipit nihil harum qui.</p>
             </Box> */}
             <Box w={200}>
-                <img src="Public/Imagenes/Casas.png" alt="" />
+                <img src="Casas.png" alt="" />
             </Box>
             {/* ambas */}
             <Box display={"flex"} mt={{ "base":"2em",  md: '4.2em', xl: '1em',} }>
@@ -123,7 +123,7 @@ const Proyectos
                 {/* svg */}
                 <Box width="1.5em" ml={{ "base":"2em",  md: '4.2em', xl: '13em',} }>
                     <a href="https://joakispiller.github.io/casastrabajo/" target='blank'>
-                        <img src="Public/Imagenes/Urlink.svg" alt="url"/>
+                        <img src="Urlink.svg" alt="url"/>
                     </a>
                     
                     

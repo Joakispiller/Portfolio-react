@@ -14,7 +14,7 @@ const IconSkill
         >
 
          <Box  mr={{ "base":"2em",  md: '4.2em', xl: '0.5em',}}>
-            <img src="Public/imagenes/html.svg" alt="" width={33}/>
+            <img src="Html.svg" alt="" width={33}/>
          </Box>
 
          <Box color='#E44D26'   fontSize={{ "base":"2em",  md: '4.2em', xl: '1.3em',}}>   
@@ -31,7 +31,7 @@ const IconSkill
         >
 
          <Box  mr={{ "base":"2em",  md: '4.2em', xl: '0.5em',}}>
-            <img src="Public/imagenes/html.svg" alt="" width={33}/>
+            <img src="Html.svg"  alt="" width={33}/>
          </Box>
 
          <Box color='#E44D26'   fontSize={{ "base":"2em",  md: '4.2em', xl: '1.3em',}}>   
@@ -49,7 +49,7 @@ const IconSkill
         >
 
          <Box  mr={{ "base":"2em",  md: '4.2em', xl: '0.5em',}}>
-            <img src="Public/imagenes/html.svg" alt="" width={33}/>
+            <img src="Html.svg"  alt="" width={33}/>
          </Box>
 
          <Box color='#E44D26'   fontSize={{ "base":"2em",  md: '4.2em', xl: '1.3em',}}>   
@@ -66,7 +66,7 @@ const IconSkill
         >
 
          <Box  mr={{ "base":"2em",  md: '4.2em', xl: '0.5em',}}>
-            <img src="Public/imagenes/html.svg" alt="" width={33}/>
+            <img src="Html.svg"  alt="" width={33}/>
          </Box>
 
          <Box color='#E44D26'   fontSize={{ "base":"2em",  md: '4.2em', xl: '1.3em',}}>   

@@ -12,7 +12,7 @@ const Scroll = () => {
         mt={{ "base":"1em",  md: '1em', xl: '40em',}}
          >
              <p>Desplazarse hacia abajo</p>
-        <img src="public/imagenes/flechaa.svg"  className='flechita'/>
+        <img src="Flechaa.svg"  className='flechita'/>
         </Box>
        
       
