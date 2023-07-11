@@ -65,7 +65,7 @@ const Body = () => {
        <Box ml={{ "base":"2em",  md: '4.2em', xl: '6.2em',}}
        mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}>
         <Habilidad/>
-       <IconSkill/>
+       <IconSkill />
        </Box>
   
 

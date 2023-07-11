@@ -1,0 +1,10 @@
+.boxIcons{
+    display: flex;
+    flex-wrap:wrap;
+    border: none;
+   
+    
+}
+.hijos-icono{
+    margin-bottom: 1em;
+}

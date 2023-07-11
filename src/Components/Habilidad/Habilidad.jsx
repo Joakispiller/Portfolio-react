@@ -5,7 +5,8 @@ const Habilidad
  = () => {
     return(
       <Box display={"flex"} color={'#00C296'} fontFamily="Ubuntu" 
-        fontSize={{ "base":"2em",  md: '4.2em', xl: '2.5em',}}
+        fontSize={{ "base":"2em",  md: '4.2em', xl: '2.5em',}} 
+        mb={{ "base":"2em",  md: '4.2em', xl: '1.5em',}}
         >
 
            <Box>&lt;</Box>
