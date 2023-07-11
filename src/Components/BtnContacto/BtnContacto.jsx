@@ -5,7 +5,7 @@ import React from 'react';
 const BtnContacto = () => {
     return(
         
-         
+         <a href="#ContactoID">
            <Button colorScheme='teal' variant='outline' 
            color={"#00C296"} fontWeight={350} bg={"#212023"}
            w={{ "base":"100",  md: '100', xl: '10em',}}
@@ -18,7 +18,7 @@ const BtnContacto = () => {
            >
               Contactáme
            </Button>
-       
+       </a>
          
     )
 }

@@ -10,7 +10,7 @@ const Navbar = () => {
 
     <ul className='ul'>
         <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#"> <p>Proyectos</p></a>
+        <a class="nav-link active" aria-current="page" href="#ProyectosID"> <p>Proyectos</p></a>
         <div class="linea"></div>
         </li>
 
@@ -20,7 +20,7 @@ const Navbar = () => {
         <Divider/>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#"><p>Habilidades</p></a>
+        <a class="nav-link" href="#HabilidadID"><p>Habilidades</p></a>
         <div class="linea"></div>
         </li>
 
@@ -30,7 +30,7 @@ const Navbar = () => {
         <Divider color='grey'/>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#"><p>Contactáme</p></a>
+        <a class="nav-link" href="#ContactoID"><p>Contactáme</p></a>
         <div class="linea"></div>
         </li>
 

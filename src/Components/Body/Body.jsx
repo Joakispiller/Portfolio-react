@@ -13,6 +13,13 @@ import { AllProyect } from '../AllProyect/AllProyect';
 import { Proyectos } from '../Proyectos/Proyectos';
 import { Habilidad } from '../Habilidad/Habilidad';
 import { IconSkill } from '../IconSkill/IconSkill';
+import { Contactame } from '../Contactame/Contactame';
+import { InfoContact } from '../InfoContact/InfoContact';
+import { Mail } from '../Mail/Mail';
+import { Formulario } from '../Formulario/Formulario';
+import { BtnEnviar } from '../BtnEnviar/BtnEnviar';
+import { TEspero } from '../TEspero/TEspero';
+
 
 const Body = () => {
 
@@ -67,6 +74,21 @@ const Body = () => {
         <Habilidad/>
        <IconSkill />
        </Box>
+
+        
+       <Box ml={{ "base":"2em",  md: '4.2em', xl: '6.2em',}}
+       mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}>
+       <Contactame/>
+       <Box display="flex">
+       <InfoContact/>
+       <Mail/>
+       </Box>
+      <Formulario/>
+      <BtnEnviar/>
+      <TEspero/>
+       </Box>
+
+
   
 
       

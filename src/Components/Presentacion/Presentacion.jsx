@@ -16,10 +16,10 @@ const Presentacion = () => {
         &lt;Desarrolador Full Stack&gt;
         <p>Apasionado por el Frontend </p>
         <p className='descripcion'> Estoy en busqueda de
-        nuevas experiencias para poner en practica <br /> mis
-        conocimientos y habilidades. Soy una persona creativa, con <br /> rápido aprendizaje
-        y gran capacidad de adaptación. Me gustaría <br /> trabajar y hacer
-        muchos proyectos para poder desempeñarme <br /> en lo que me gusta.</p>
+        nuevas experiencias para poner en practica  mis
+        conocimientos y habilidades. Soy una persona creativa, con  rápido aprendizaje
+        y gran capacidad de adaptación. Me gustaría trabajar y hacer
+        muchos proyectos para poder desempeñarme en lo que me gusta.</p>
 
       </Box>
     )

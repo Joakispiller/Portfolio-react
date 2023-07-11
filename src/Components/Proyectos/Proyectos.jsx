@@ -14,6 +14,7 @@ const Proyectos
         pb={{ "base":"2em",  md: '4.2em', xl: '1em',} }
         ml={{ "base":"2em",  md: '4.2em', xl: '40em',} }
         mb={{ "base":"2em",  md: '4.2em', xl: '1em',} }
+        id='ProyectosID'
         >
 
             {/* titulo */}
