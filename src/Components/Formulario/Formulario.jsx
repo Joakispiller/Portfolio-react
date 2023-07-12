@@ -71,7 +71,7 @@ const Formulario= () => {
        
         </Box>
 
-        <input type="hidden" name="_next" value="https://joakispiller.github.io/Portfolio-react/"></input>
+        <input type="hidden" name="_next" value="joakispiller.github.io/Portfolio-react/"></input>
         <input type="hidden" name="_captcha" value="false"></input>
         
       </form>
