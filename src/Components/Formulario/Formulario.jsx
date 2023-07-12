@@ -5,12 +5,34 @@ import"./Formulario.css"
     
     
 
-
 const Formulario= () => {
+
+//   const nombre=document.getElementById("nombre")
+//   const email=document.getElementById("email")
+//   const btn=document.getElementById("btn")
+ 
+//   function validarFormulario() {
+//     let datoNombre= nombre.value
+//     let datoEmail= email.value
+//     if (datoNombre==="") {
+//       alert("Ingrese su nombre")
+//        return false
+//     }
     
+//     if (datoEmail==="") {
+//       alert("Ingrese su nombre") 
+//        return false
+//     }
+   
+//   }
+// btn.addEventListener("click", validarFormulario)
+
+ 
+
+   
     return(
 
-        // todoo
+        // todoo 
         <form action="https://formsubmit.co/joakispiller22@gmail.com" method="POST" >
 
       <Box    mr={{ "base":"2em",  md: '4.2em', xl: '15em',}} 
@@ -21,8 +43,8 @@ const Formulario= () => {
         <Box display="flex">
 {/* nombre */}
             <Box  w={{ "base":"2em",  md: '4.2em', xl: '41em',}}>
-                <input type="name" name='Nombre'
-                className='Forms' placeholder='Nombre' maxlength="60"/>
+                <input type="name" name='Nombre' id='nombre'
+                className='Forms' placeholder='Nombre' maxlength="60" minLength="1"/>
 
            </Box>
 
@@ -31,20 +53,20 @@ const Formulario= () => {
            <Box  ml={{ "base":"2em",  md: '4.2em', xl: '1.1em',}}
            w={{ "base":"2em",  md: '4.2em', xl: '40.6em',}}
            >
-           <input type="email" name='Email'
+           <input type="email" name='Email' id='email'
              className='Forms' placeholder='Email' maxlength="60"/>
            </Box>
 
         </Box>
         {/* tema */}
         <Box    mt={{ "base":"2em",  md: '4.2em', xl: '1.3em',}}>
-        <input type="text" name='Asunto'
+        <input type="text" name='Asunto' id='asunto'
         className='Forms' placeholder="Asunto" maxlength="700"/>
         </Box>
 
         {/* mensjae */}
         <Box mt={{ "base":"2em",  md: '4.2em', xl: '1.3em',}}>
-          <textarea className='msj' name='Comentarios'
+          <textarea className='msj' name='Comentarios' id='comentarios'
           cols="30" rows="10" placeholder='Mensaje' maxlength="10000">
 
           </textarea>
@@ -55,7 +77,7 @@ const Formulario= () => {
    
       </Box>
          <Box >
-         <Button colorScheme='teal' variant='outline' 
+         <Button colorScheme='teal' variant='outline' id='btn' type='submit'
            color={"#00C296"} fontWeight={350} 
            w={{ "base":"100",  md: '100', xl: '11em',}}
            h={{ "base":"100",  md: '100', xl: '3em',}}
@@ -64,20 +86,20 @@ const Formulario= () => {
             bg: '#00C296', color:"Black",  
           }}
            >
-               <input className='btnn' type="submit" value="Enviar mensaje" />
+              Enviar mensaje
            </Button>
              
           
        
         </Box>
 
-        <input type="hidden" name="_next" value="joakispiller.github.io/Portfolio-react/"></input>
+        <input type="hidden" name="_next" value="http://localhost:5173/Portfolio-react/#ContactoID"></input>
         <input type="hidden" name="_captcha" value="false"></input>
         
       </form>
       
     )
+
 }
 
 export { Formulario}
-
