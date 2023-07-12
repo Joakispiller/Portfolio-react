@@ -11,7 +11,7 @@ const Formulario= () => {
     return(
 
         // todoo
-        <form action="https://joakispiller.github.io/Portfolio-react/" method="POST" >
+        <form action="https://formsubmit.co/joakispiller22@gmail.com" method="POST" >
 
       <Box    mr={{ "base":"2em",  md: '4.2em', xl: '15em',}} 
       mt={{ "base":"2em",  md: '4.2em', xl: '2.3em',}}
