@@ -1,4 +1,4 @@
-input{
+.Forms{
     border: none;
     border-radius: 0.2em;
     outline: none;
@@ -31,5 +31,9 @@ textarea::placeholder{
   overflow: hidden; 
   padding-top: 1em;
   
+}
+.btnn{
+    background-color: transparent;
+    cursor: pointer;
 }
  

@@ -84,6 +84,7 @@ const Body = () => {
         mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}
         mr={{ "base":"2em",  md: '4.2em', xl: '15em',}}>
         <Experiencia/>
+        
         <Fechitas/>
         <Laburito/>
         <Fechas/>
@@ -105,7 +106,7 @@ const Body = () => {
        <Mail/>
        </Box>
       <Formulario/>
-      <BtnEnviar/>
+      {/* <BtnEnviar/> */}
       <TEspero/>
        </Box>
 
