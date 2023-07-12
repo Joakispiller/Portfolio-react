@@ -19,7 +19,7 @@ const Formulario= () => {
         <Box display="flex">
 {/* nombre */}
             <Box  w={{ "base":"2em",  md: '4.2em', xl: '41em',}}>
-                <input type="name" className='Forms-Name' placeholder='Nombre' maxlength="30"/>
+                <input type="name" className='Forms-Name' placeholder='Nombre' maxlength="60"/>
 
            </Box>
 
@@ -28,7 +28,7 @@ const Formulario= () => {
            <Box  ml={{ "base":"2em",  md: '4.2em', xl: '1.1em',}}
            w={{ "base":"2em",  md: '4.2em', xl: '40.6em',}}
            >
-           <input type="name" className='Forms-Email' placeholder='Email' maxlength="30"/>
+           <input type="name" className='Forms-Email' placeholder='Email' maxlength="60"/>
            </Box>
 
         </Box>
@@ -39,7 +39,7 @@ const Formulario= () => {
 
         {/* mensjae */}
         <Box mt={{ "base":"2em",  md: '4.2em', xl: '1.3em',}}>
-          <textarea className='msj' cols="30" rows="10" placeholder='Mensaje'>
+          <textarea className='msj' cols="30" rows="10" placeholder='Mensaje' maxlength="10000">
 
           </textarea>
 

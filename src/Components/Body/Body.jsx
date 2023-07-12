@@ -19,6 +19,11 @@ import { Mail } from '../Mail/Mail';
 import { Formulario } from '../Formulario/Formulario';
 import { BtnEnviar } from '../BtnEnviar/BtnEnviar';
 import { TEspero } from '../TEspero/TEspero';
+import { Experiencia } from '../Experiencia/Experiencia';
+import { Laburos } from '../Laburos/Laburos';
+import { Fechas } from '../Fechas/Fechas';
+import { Laburito } from '../Laburito/Laburito';
+import { Fechitas } from '../Fechitas/Fechitas';
 
 
 const Body = () => {
@@ -74,6 +79,22 @@ const Body = () => {
         <Habilidad/>
        <IconSkill />
        </Box>
+
+       <Box ml={{ "base":"2em",  md: '4.2em', xl: '6.2em',}}
+        mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}
+        mr={{ "base":"2em",  md: '4.2em', xl: '15em',}}>
+        <Experiencia/>
+        <Fechitas/>
+        <Laburito/>
+        <Fechas/>
+        <Laburos/>
+        
+        
+
+       </Box>
+
+
+
 
         
        <Box ml={{ "base":"2em",  md: '4.2em', xl: '6.2em',}}

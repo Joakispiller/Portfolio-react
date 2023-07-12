@@ -24,8 +24,16 @@ const Navbar = () => {
         <div class="linea"></div>
         </li>
 
-      
+        <li className='divi'>
+        <Divider color='grey'/>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#ExperienciaID"><p>Experiencia</p></a>
+        <div class="linea"></div>
+        </li>
 
+
+    
         <li className='divi'>
         <Divider color='grey'/>
         </li>
