@@ -5,4 +5,9 @@
     .hDos{
 margin-left: 5.5em;
 }
+@media screen and (max-width:1024px){
+   .pDos{
+    margin-left: 3em;
+   }
+}
 

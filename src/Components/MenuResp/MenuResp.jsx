@@ -12,7 +12,8 @@ const MenuResp = () => {
     return(
         
         <Box className='RespNav' display="flex" justifyContent="space-between" bg="#111111"
-        h={{ "base":"4em",  md: '6em',}} position="fixed"  zIndex={1} w="100vw"
+        h={{ "base":"4em",  md: '6em',}} position="fixed"  zIndex={1} w="100vw" 
+        mt={{ "base":"0em",  md: '0em',}}
         >
             <Box  w={{ "base":"4em",  md: '6em',}}  ml={{ "base":"0.5em",  md: '1em',}}
             mt={{ "base":"0.55em",  md: '1em',}}  >
@@ -77,6 +78,24 @@ const MenuResp = () => {
     mb={{ "base":"-0.5em",  md: '-0.5em',}}
     h={{ "base":"2.5em",  md: '3em',}} _hover={{ bg: "#151515" }} >
    <p>Contactáme</p>
+    </MenuItem>
+</a>
+
+<a   href="https://www.linkedin.com/in/joaqu%C3%ADn-spiller-31937727a/"> 
+    <MenuItem bg="#212023" mt={{ "base":"1em",  md: '1em',}} 
+     h={{ "base":"2.5em",  md: '3em',}}   _hover={{ bg: "#151515" }} color="white"
+     justifyContent="space-between">
+
+   <p>Linkedin</p> <img src="Linkedin.svg" alt=""  width="28em" className='logink'/>
+    </MenuItem>
+</a>
+
+<a   href="#ProyectosID"> 
+    <MenuItem bg="#212023" mt={{ "base":"-0.5em",  md: '-0.5em',}} 
+     h={{ "base":"2.5em",  md: '3em',}}   _hover={{ bg: "#151515" }}color="white"
+     justifyContent="space-between">
+      
+    <p>Github</p> <img src="Github.svg" alt=""  width="20em" className='logit' />
     </MenuItem>
 </a>
 

@@ -1,0 +1,24 @@
+
+.toBodyRes{
+    width: 100vw;
+    background-color: #151515;
+    margin-top: 0em;
+
+}
+@media screen and (max-width:1024px){
+       /* hero */
+    .salud{
+     justify-content: center;
+    }
+    .etc{
+        text-align: center;
+
+    }
+ }
+ @media screen and (min-width:767px){
+   .fotoSalud{
+    display: flex;
+   }
+    
+    
+}

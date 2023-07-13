@@ -1,7 +1,21 @@
 .toBody{
     width: 100vw;
     background-color: #151515;
+    margin-top: 0em;
 }
 .plex{
     display: flex;
+}
+
+
+@media screen and (max-width:768px){
+   .toBody{
+    margin-top: 6em;
+   }
+    
+}
+@media screen and (max-width:767px){
+    .toBody{
+        margin-top: 4em;
+       }
 }

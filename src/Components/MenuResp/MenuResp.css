@@ -5,11 +5,17 @@
         
     }
     
+    
 }
 @media screen and (max-width:767px){
     .hamburgesa{
         font-size: 1.4em;
         color: rgb(217, 197, 248);
     }
-    
+    .logit{
+        width: 1.2em;
+    }
+    .logink{
+        width: 1.5em;
+    }
 }

@@ -7,10 +7,12 @@ const Presentacion = () => {
     return(
 
       <Box color={'whiteAlpha.900'} 
-      fontSize={{ "base":"1em",  md: '1em', xl: '1.2em',}}
+      fontSize={{ "base":"0.9em",  md: '1.03em', xl: '1.2em',}}
       fontWeight={{ "base":"100",  md: '100', xl: '400',}}
-      ml={{ "base":"100",  md: '100', xl: '6em',}}
-      mt={{ "base":"100",  md: '100', xl: '3em',}}
+      ml={{ "base":"3em",  md: '10em', xl: '6em',}}
+      mr={{ "base":"3em",  md: '10em', xl: '0em',}}
+      mt={{ "base":"2em",  md: '1em', xl: '3em',}}
+      className='etc'
       >
 
         &lt;Desarrolador Full Stack&gt;

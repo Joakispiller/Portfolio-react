@@ -57,7 +57,7 @@ const Body = () => {
        </div>
 
                    {/* Proyectos */}
-       <Box ml={{ "base":"2em",  md: '4.2em', xl: '6.2em',}}
+       <Box ml={{ "base":"2em",  md: '4em', xl: '6.2em',}}
        mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}
        display={"Flex"}
        > 

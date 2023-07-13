@@ -4,9 +4,9 @@ import"./Saludar.css"
 
 const Saludar = () => {
     return(
-        <Box className='salud' fontSize={{ "base":"2em",  md: '4.2em', xl: '4.6em',}}
-        fontFamily="Ubuntu" ml={{ "base":"1em",  md: '1em', xl: '1.5em',}}
-        mt={{ "base":"1em",  md: '1em', xl: '1.8em',}}
+        <Box className='salud' fontSize={{ "base":"1.9em",  md: '3em', xl: '4.6em',}}
+        fontFamily="Ubuntu" ml={{ "base":"0em",  md: '0em', xl: '1.5em',}}
+        pt={{ "base":"3em",  md: '2.5em', xl: '1.8em',}}
         >
 
 
