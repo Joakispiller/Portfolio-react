@@ -3,3 +3,12 @@
     position:fixed;
 
 }
+/* tablet*/
+
+/* menu */
+@media screen and (max-width:1024px){
+    .Navv{
+       display: none;
+    }
+    
+}

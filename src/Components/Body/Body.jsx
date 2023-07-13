@@ -30,7 +30,7 @@ const Body = () => {
 
     return(
       
-    <Box className='toBody' ml={240} >
+    <Box className='toBody' ml={{ "base":"0em",  md: '0em', xl: '15em',}} >
       {/* fleeeex inicio*/}
       <div>
 

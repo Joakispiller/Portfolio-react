@@ -11,7 +11,7 @@ const InfoMas = () => {
        mt={{ "base":"1em",  md: '1em', xl: '3em',}}
         >
         <h1 >5+</h1>
-        <h1 className='pDos'>6+</h1>
+        <h1 className='hDos'>6+</h1>
        </Box>
        <Box color={'white'} display="flex"
        ml={{ "base":"1em",  md: '1em', xl: '6.5em',}}

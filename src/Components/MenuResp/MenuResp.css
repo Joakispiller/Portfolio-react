@@ -1,0 +1,15 @@
+/* menu */
+@media screen and (min-width:767px){
+    .hamburgesa{
+        font-size: 2em;
+        
+    }
+    
+}
+@media screen and (max-width:767px){
+    .hamburgesa{
+        font-size: 1.4em;
+        color: rgb(217, 197, 248);
+    }
+    
+}
