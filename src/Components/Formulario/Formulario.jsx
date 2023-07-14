@@ -1,39 +1,36 @@
 import { Box, Button } from '@chakra-ui/react';
-import React from 'react';
+import React, { useState } from 'react';
 import"./Formulario.css"
- 
+
     
     
 
 const Formulario= () => {
 
-//   const nombre=document.getElementById("nombre")
-//   const email=document.getElementById("email")
-//   const btn=document.getElementById("btn")
- 
-//   function validarFormulario() {
-//     let datoNombre= nombre.value
-//     let datoEmail= email.value
-//     if (datoNombre==="") {
-//       alert("Ingrese su nombre")
-//        return false
-//     }
-    
-//     if (datoEmail==="") {
-//       alert("Ingrese su nombre") 
-//        return false
-//     }
-   
-//   }
-// btn.addEventListener("click", validarFormulario)
+  const [nombre, setNombre] = useState('');
+  const [email, setEmail] = useState(''); 
+  const [asunto, setAsunto] = useState('');
+  const [mensaje, setMensaje] = useState('');
+  const [error, setError] = useState('');
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (nombre === '' || email === '' || asunto === '' || mensaje === '') {
+      setError('Por favor, completa todos los campos.');
+    } else {
+    
+      
+      setError('');
+    }
+  }
  
 
    
     return(
 
         // todoo 
-        <form action="https://formsubmit.co/joakispiller22@gmail.com" method="POST" className='forma' >
+        <form action="https://formsubmit.co/joakispiller22@gmail.com" method="POST" className='forma'  onSubmit={handleSubmit} >
 
       <Box    mr={{ "base":"2em",  md: '4em', xl: '15em',}} 
       mt={{ "base":"2em",  md: '4em', xl: '2.3em',}}
@@ -45,8 +42,11 @@ const Formulario= () => {
             <Box  w={{ "base":"20em",  md: '40em', xl: '41em',}}
             ml={{ "base":"2em",  md: '4em', xl: '0em',}}
             mb={{ "base":"2em",  md: '2em', xl: '0em',}}>
-                <input type="name" name='Nombre' id='nombre'
-                className='Forms' placeholder='Nombre' maxlength="60" minLength="1"/>
+                <input type="name"
+                className='Forms' placeholder='Nombre'minLength="1"
+               name='Nombre'
+                value={nombre}
+                onChange={(e) => setNombre(e.target.value)}/>
 
            </Box>
 
@@ -55,29 +55,39 @@ const Formulario= () => {
            <Box  ml={{ "base":"2em",  md: '4em', xl: '1.1em',}}
            w={{ "base":"20em",  md: '40em', xl: '40.6em',}}
            >
-           <input type="email" name='Email' id='email'
-             className='Forms' placeholder='Email' maxlength="60"/>
+           <input type="email"
+             className='Forms' placeholder='Email' 
+              name='Email' 
+             value={email}
+             onChange={(e) => setEmail(e.target.value)}/>
            </Box>
 
         </Box>
         {/* tema */}
         <Box    mt={{ "base":"2em",  md: '2em', xl: '1.3em',}}
          ml={{ "base":"2em",  md: '4em', xl: '0em',}}>
-        <input type="text" name='Asunto' id='asunto'
-        className='Forms' placeholder="Asunto" maxlength="700"/>
+        <input type="text" name='Asunto' 
+        className='Forms' placeholder="Asunto" 
+        
+        value={asunto}
+        onChange={(e) => setAsunto(e.target.value)}/>
         </Box>
 
         {/* mensjae */}
         <Box mt={{ "base":"2em",  md: '2em', xl: '1.3em',}}
          ml={{ "base":"2em",  md: '4em', xl: '0em',}}>
-          <textarea className='msj' name='Comentarios' id='comentarios'
-          cols="30" rows="10" placeholder='Mensaje' maxlength="10000">
+          <textarea className='msj' name='Comentarios'
+          cols="30" rows="10" placeholder='Mensaje' 
+
+
+          value={mensaje}
+        onChange={(e) => setMensaje(e.target.value)}>
 
           </textarea>
 
 
         </Box>
-     
+        {error && <p style={{ color: 'red' }}>{error}</p>}
    
       </Box>
          <Box >

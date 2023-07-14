@@ -11,7 +11,7 @@ const FraseProyecto
         mb={{ "base":"1em",  md: '0.5em', xl: '0em',}}
         >
 
-           <Box className='pro'>&lt;</Box>
+           <Box className='pro' >&lt;</Box>
                 <Box color={'white'} >
             <p className='proo' color='white'>Proyectos</p>
             </Box>

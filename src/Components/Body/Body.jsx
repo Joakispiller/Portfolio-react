@@ -59,10 +59,10 @@ const Body = () => {
                    {/* Proyectos */}
        <Box ml={{ "base":"2em",  md: '4em', xl: '6.2em',}}
        mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}
-       display={"Flex"}
+       display={"Flex"}id='IDProyectos'
        > 
 
-          <div>
+          <div >
             <FraseProyecto/>
             <AllProyect/>
           </div>
@@ -75,14 +75,16 @@ const Body = () => {
 
        
        <Box ml={{ "base":"2em",  md: '4.2em', xl: '6.2em',}}
-       mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}>
+       mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}
+       id='IDHabilidad'>
         <Habilidad/>
        <IconSkill />
        </Box>
 
        <Box ml={{ "base":"2em",  md: '4.2em', xl: '6.2em',}}
         mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}
-        mr={{ "base":"2em",  md: '4.2em', xl: '15em',}}>
+        mr={{ "base":"2em",  md: '4.2em', xl: '15em',}}
+        id='IDExperiencia'>
         <Experiencia/>
         
         <Fechitas/>
@@ -99,7 +101,8 @@ const Body = () => {
 
         
        <Box ml={{ "base":"2em",  md: '4.2em', xl: '6.2em',}}
-       mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}>
+       mt={{ "base":"2em",  md: '4.2em', xl: '18em',}}
+       id='IDContacto'>
        <Contactame/>
        <Box display="flex">
        <InfoContact/>
