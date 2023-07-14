@@ -10,4 +10,15 @@
     display: flex;
 }
 
+@media screen and (min-width:767px){
+   
+    
+        .hola{
+            line-height: 1.2em;
+ }
+ .puntito{
 
+    margin-top: 1.06em;
+ }
+ 
+}

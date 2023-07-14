@@ -5,6 +5,7 @@
     margin-top: 0em;
 
 }
+/* todo */
 @media screen and (max-width:1024px){
        /* hero */
     .salud{
@@ -14,11 +15,52 @@
         text-align: center;
 
     }
+    .arrowPic{
+        text-align:center;
+        margin: auto;
+     
+      
+    }
+    .boxarr{
+        display: block;
+        margin: auto;
+    }
+   
+    .pro{
+        text-align:center;
+        margin: auto;
+        margin-right: 0em;
+    }
+    .prooo{
+        text-align:center;
+        margin: auto;
+        margin-left: 0em;
+    }
  }
+/* solo celu */
+ @media screen and (max-width:768px){
+   
+   
+    .tabletInit{
+        display: none;
+       }
+     
+ }
+
+ /* solo ablet */
  @media screen and (min-width:767px){
    .fotoSalud{
-    display: flex;
+    display: none;
    }
-    
+   
+   .tabletInit{
+    display: flex;
+    justify-content: space-around;
+   }
+   .etc{
+    text-align: start;
+
+}
+
     
 }

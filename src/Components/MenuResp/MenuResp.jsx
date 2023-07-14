@@ -81,7 +81,7 @@ const MenuResp = () => {
     </MenuItem>
 </a>
 
-<a   href="https://www.linkedin.com/in/joaqu%C3%ADn-spiller-31937727a/"> 
+<a   href="https://www.linkedin.com/in/joaqu%C3%ADn-spiller-31937727a/" target='blank'> 
     <MenuItem bg="#212023" mt={{ "base":"1em",  md: '1em',}} 
      h={{ "base":"2.5em",  md: '3em',}}   _hover={{ bg: "#151515" }} color="white"
      justifyContent="space-between">
@@ -90,7 +90,7 @@ const MenuResp = () => {
     </MenuItem>
 </a>
 
-<a   href="#ProyectosID"> 
+<a   href="https://github.com/Joakispiller" target='blank'> 
     <MenuItem bg="#212023" mt={{ "base":"-0.5em",  md: '-0.5em',}} 
      h={{ "base":"2.5em",  md: '3em',}}   _hover={{ bg: "#151515" }}color="white"
      justifyContent="space-between">

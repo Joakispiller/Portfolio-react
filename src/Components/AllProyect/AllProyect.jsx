@@ -9,9 +9,10 @@ const AllProyect
       
 
        
-        <Box display="flex" color={'white'}
-        mt={{ "base":"2em",  md: '4.2em', xl: '35.5em',}}
-        fontWeight={100}
+        <Box display="flex" color={'white'}  fontSize={{ "base":"0.8em",  md: '1em',}}
+        mt={{ "base":"2em",  md: '3em', xl: '35.5em',}}
+        fontWeight={100} 
+        ml={{ "base":"2.5em",  md: '3em',}} mr={{ "base":"1em",  md: '1em',}}
         >
             <p>Podes ver todos los proyectos y repositorios  en mi página personal de <a className='aaa' href="https://github.com/Joakispiller" target='blank' > GitHub.</a> </p>
             
