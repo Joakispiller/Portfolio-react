@@ -5,16 +5,17 @@ const Experiencia = () => {
     return(
         
         <Box display={"flex"} color={'#00C296'} fontFamily="Ubuntu" 
-        fontSize={{ "base":"2em",  md: '4.2em', xl: '2.5em',}}
+        fontSize={{ "base":"1.6em",  md: '3em', xl: '2.5em',}}
+        mt={{ "base":"2em",  md: '3em',}}
         id='ExperienciaID'
         >
 
-           <Box>&lt;</Box>
+           <Box className='xp'>&lt;</Box>
                 <Box color={'white'} >
             <p color='white'>Experiencia de trabajo</p>
             </Box>
 
-            <Box> &gt;</Box>
+            <Box className='px'> &gt;</Box>
             
             </Box>
     )

@@ -6,12 +6,14 @@ const Laburos= () => {
     return(
         
         <Box ml={{ "base":"2em",  md: '4.2em', xl: '10.2em',}}
-        mb={{ "base":"2em",  md: '4.2em', xl: '4em',}} >
+        mb={{ "base":"2em",  md: '4.2em', xl: '4em',}}
+        mr={{ "base":"2em",  md: '4.2em',}}> 
             
            
             {/* en que trabaje */}
             <Box  fontFamily="Ubuntu" color="#9A5BFF"
-            fontSize={{ "base":"2em",  md: '4.2em', xl: '2.2em',}}
+            fontSize={{ "base":"1.6em",  md: '4.2em', xl: '2.2em',}}
+            
             >
               <h1>Revista digital</h1>
             </Box>
@@ -29,7 +31,8 @@ const Laburos= () => {
            
             {/* lenguajes */}
             <Box color={'whiteAlpha.900'} fontWeight={100}
-            mt={{ "base":"2em",  md: '4.2em', xl: '0.6em',}}>
+            mt={{ "base":"1em",  md: '0.5em', xl: '0.6em',}}
+            fontSize={{ "base":"1em",  md: '1.5em',}}>
                 <p>Html, Css, Javascript, React</p>
             </Box>
     </Box>

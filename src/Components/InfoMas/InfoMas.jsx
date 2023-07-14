@@ -14,7 +14,7 @@ const InfoMas = () => {
         <h1 className='hDos'>6+</h1>
        </Box>
        <Box color={'white'} display="flex" 
-       ml={{ "base":"4em",  md: '7em', xl: '6.5em',}}
+       ml={{ "base":"4em",  md: '7em', xl: '6em',}}
        fontSize={{ "base":"1em",  md: '1.1em', }}
        >
         <p>proyectos completados </p>

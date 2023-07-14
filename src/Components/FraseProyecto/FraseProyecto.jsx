@@ -7,8 +7,8 @@ const FraseProyecto
     return(
         <Box display={"flex"} color={'#00C296'} fontFamily="Ubuntu" 
         fontSize={{ "base":"2em",  md: '3.5em', xl: '2.5em',}}
-        id='ProyectosID' className='Project'  mt={{ "base":"2em",  md: '2em', }}
-        mb={{ "base":"1em",  md: '0.5em', }}
+        id='ProyectosID' className='Project'  mt={{ "base":"2em",  md: '2em', xl: '0em',}}
+        mb={{ "base":"1em",  md: '0.5em', xl: '0em',}}
         >
 
            <Box className='pro'>&lt;</Box>

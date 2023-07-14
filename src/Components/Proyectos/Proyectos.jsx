@@ -5,7 +5,7 @@ const Proyectos
  = () => {
 
     return(
-<Box  mr={{ "base":"2em",  md: '3em', xl: '14em',} }
+<Box  mr={{ "base":"2em",  md: '3em', xl: '14em',} } id='ProyectosRID' 
 >
         {/*  card  */}
         <Box bg={"#212023"}  borderRadius={5}

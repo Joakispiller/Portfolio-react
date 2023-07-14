@@ -25,7 +25,7 @@
         display: block;
         margin: auto;
     }
-   
+   /* proye */
     .pro{
         text-align:center;
         margin: auto;
@@ -36,6 +36,59 @@
         margin: auto;
         margin-left: 0em;
     }
+    /* hab */
+    .ski{
+        text-align:center;
+        margin: auto;
+        margin-right: 0em;
+    }
+    .hab{
+        text-align:center;
+        margin: auto;
+        margin-left: 0em;
+
+    }
+    .boxIcons{
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+      /* exp */
+    .xp{
+        text-align:center;
+        margin: auto;
+        margin-right: 0em;
+    }
+    .px{
+        text-align:center;
+        margin: auto;
+        margin-left: 0em;
+
+    }
+    /* contactamee */
+    .inp{
+        text-align:center;
+        margin: auto;
+        margin-right: 0em;
+    }
+    .forr{
+        text-align:center;
+        margin: auto;
+        margin-left: 0em;
+
+    }
+    .peti{
+        text-align: center;
+    }
+    .meil{
+        justify-content: center;
+    }
+
+    .forma{
+text-align: center;
+
+    }
+  
+
  }
 /* solo celu */
  @media screen and (max-width:768px){

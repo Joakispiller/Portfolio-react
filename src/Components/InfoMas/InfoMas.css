@@ -1,13 +1,13 @@
 
-.pDos{
-    margin-left: 8em;
-    }
-    .hDos{
-margin-left: 5.5em;
-}
-@media screen and (max-width:1024px){
+
+
+
+@media screen and (max-width:768px){
    .pDos{
     margin-left: 3em;
+   }
+   .hDos{
+    margin-left: 5.5em;
    }
 }
 @media screen and (min-width:767px){
@@ -19,3 +19,12 @@ margin-left: 5.5em;
     }
 }
 
+@media screen and (min-width:1025px){
+    .pDos{
+    margin-left: 8em;
+    }
+    .hDos{
+margin-left: 6.4em;
+}
+    
+}

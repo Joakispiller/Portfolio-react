@@ -3,18 +3,19 @@ import React from 'react';
 
 const Mail = () => {
     return(
-        <Box display="flex" >
-            <Box   w={{ "base":"1em",  md: '1em', xl: '1.7em',}}
-              ml={{ "base":"1em",  md: '1em', xl: '27em',}}
-              mt={{ "base":"1em",  md: '1em', xl: '0.3em',}}
+        <Box display="flex" className='meil'>
+            <Box   w={{ "base":"0.9em",  md: '1.4em', xl: '1.7em',}}
+              ml={{  xl: '27em',}}
+              mt={{ "base":"0.8em",  md: '1.4em', xl: '0.3em',}}
             >
                  <img src="mailicon.svg" alt="" />
             </Box>
 
-            <Box color="#9A5BFF"   fontSize={{ "base":"1em",  md: '1em', xl: '1.5em',}}
-            ml={{ "base":"1em",  md: '1em', xl: '0.5em',}}
+            <Box color="#9A5BFF"   fontSize={{ "base":"1em",  md: '1.2em', xl: '1.5em',}}
+            ml={{ "base":"0.5em",  md: '1em', xl: '0.5em',}}
+            mt={{ "base":"0.5em",  md: '1em',xl: '0em', }}
             >
-            <a href="mailto:Joakispiller22@gmail.com">Joakispiller22@gmail.com</a>
+            <a href="mailto:Joakispiller22@gmail.com" target='blank'>Joakispiller22@gmail.com</a>
             </Box>
            
      

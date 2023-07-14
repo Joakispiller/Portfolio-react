@@ -5,7 +5,7 @@ import React from 'react';
 const InfoContact = () => {
     return(
         <Box fontWeight={100} color="#dddcdc" flexWrap={wrap}
-        fontSize={{ "base":"1em",  md: '1em', xl: '1.1em',}}
+        fontSize={{ "base":"0.7em",  md: '1.3em', xl: '1.1em',}} className='peti'
         >
             <p>
              Si tenes una petición o pregunta, no dudes en utilizar el formulario.
