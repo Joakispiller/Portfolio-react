@@ -9,9 +9,9 @@ const Navbar = () => {
         >
 
     <ul className='ul'>
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#IDProyectos"> <p>Proyectos</p></a>
-        <div class="linea"></div>
+        <li className="nav-item">
+        <a className="nav-link active" aria-current="page" href="#IDProyectos"> <p>Proyectos</p></a>
+        <div className="linea"></div>
         </li>
 
        
@@ -19,17 +19,17 @@ const Navbar = () => {
         <li className='divi'>
         <Divider/>
         </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#IDHabilidad"><p>Habilidades</p></a>
-        <div class="linea"></div>
+        <li className="nav-item">
+        <a className="nav-link" href="#IDHabilidad"><p>Habilidades</p></a>
+        <div className="linea"></div>
         </li>
 
         <li className='divi'>
         <Divider color='grey'/>
         </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#IDExperiencia"><p>Experiencia</p></a>
-        <div class="linea"></div>
+        <li className="nav-item">
+        <a className="nav-link" href="#IDExperiencia"><p>Experiencia</p></a>
+        <div className="linea"></div>
         </li>
 
 
@@ -37,9 +37,9 @@ const Navbar = () => {
         <li className='divi'>
         <Divider color='grey'/>
         </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#IDContacto"><p>Contactáme</p></a>
-        <div class="linea"></div>
+        <li className="nav-item">
+        <a className="nav-link" href="#IDContacto"><p>Contactáme</p></a>
+        <div className="linea"></div>
         </li>
 
        
