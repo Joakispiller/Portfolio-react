@@ -1,0 +1,17 @@
+
+/* oculta en pc */
+@media screen and (min-width:1025px){
+   .btnUno{
+    display: none;
+   }
+    
+}
+
+
+/* oculta en tablet celu */
+@media screen and (max-width:1024px){
+       
+.btnDos{
+display: none;
+}
+}

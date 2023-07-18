@@ -3,10 +3,11 @@ import React from 'react';
 
 const Mail = () => {
     return(
-        <Box display="flex" className='meil'>
+        <Box display="flex" className='meil' id='ContactoID'>
             <Box   w={{ "base":"0.9em",  md: '1.4em', xl: '1.7em',}}
               ml={{  xl: '27em',}}
               mt={{ "base":"0.8em",  md: '1.4em', xl: '0.3em',}}
+              id='ContactID'
             >
                  <img src="mailicon.svg" alt="" />
             </Box>

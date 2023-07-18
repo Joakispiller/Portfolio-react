@@ -8,10 +8,10 @@ const Contactame = () => {
         fontSize={{ "base":"2em",  md: '3.5em', xl: '2.5em',}} 
         mb={{ "base":"1em",  md: '1em', xl: '0.6em',}}
         mt={{ "base":"3em",  md: '4.2em', }}
-        id='ContactoID'
+       
         >
 
-           <Box className='inp'>&lt;</Box>
+           <Box  id='IDContact' className='inp'>&lt;</Box>
                 <Box color={'white'} >
             <p color='white'>Contactáme</p>
             </Box>
