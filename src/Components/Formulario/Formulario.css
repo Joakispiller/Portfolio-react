@@ -36,4 +36,11 @@ textarea::placeholder{
     background-color: transparent;
     cursor: pointer;
 }
- 
+ .respuesta{
+    color:#00C39A;
+    text-align: center;
+    margin-top: 2em;
+ }
+ .mnm{
+    color: rgba(255, 0, 0, 0.43);
+ }
