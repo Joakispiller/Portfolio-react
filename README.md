@@ -26,7 +26,7 @@ Las medidas en responisve que tome como referencias son:
 
 
 
-<h3>Espero les guste 😸</h3>
+<h3>Espero les guste... 😸</h3>
 
 
 
